@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "mega xsoft hak by tolya from @checkerlovli",
+  "version": "228.271.14.88",
+  "action": {},
+  "content_scripts": [
+    {
+      "matches": ["*://kiznold.github.io/*"], 
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}
